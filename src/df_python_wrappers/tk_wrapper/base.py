@@ -10,7 +10,7 @@ from tkinter import font
 from tkinter.scrolledtext import ScrolledText
 from df_python_wrappers.tk_wrapper.wrappers import image_from_url, stringvar
 from df_python_wrappers.tk_wrapper.simple import SimpleTKWrapper
-from df_python_wrappers.utility.DictTools import subdict
+from df_python_wrappers.common.DictTools import subdict
 
 # the base tkinter wrapper class
 class HasMasterBase(SimpleTKWrapper):
